@@ -438,13 +438,12 @@ header {
   div.gallery {
     width: 60%;
     margin: 5px;
-    height: 20vh;
+    height: 20%;
   }
 
   div.gallery img {
     width: 100%;
     height: auto;
-    max-height: 20vh;
   }
   input,
   textarea,
