@@ -438,8 +438,6 @@ header {
   div.gallery {
     width: 80%;
     margin: 5px;
-    height: 1%;
-    max-height: 200px;
   }
 
   div.gallery img {
