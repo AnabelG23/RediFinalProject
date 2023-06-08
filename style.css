@@ -443,7 +443,7 @@ header {
   div.gallery img {
     width: 100%;
     height: auto;
-    max-height: 100%;
+    max-height: 50vh;
   }
   input,
   textarea,
@@ -534,6 +534,6 @@ footer {
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   img {
     width: 100%;
-    height: 100vh;
+    height: 50vh;
   }
 }
