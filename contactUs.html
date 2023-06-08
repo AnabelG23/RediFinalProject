@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>"Munich green"</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navigation Bar -->
+      <nav>
+        <h1>Munich Green</h1>
+        <ul>
+          <li id="home"><a href="index.html" class="fa fa-home"></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">MOVING AROUND THE CITY</a>
+            <div class="dropdown-content">
+              <a
+                target="_blank"
+                href="https://www.muenchen.de/en/transportation/biking/bike-rentals-munich"
+                >Rent a bike</a
+              >
+              <a
+                target="_blank"
+                href="https://www.muenchen.de/en/transportation"
+                >Public Transport</a
+              >
+            </div>
+          </li>
+
+           <li class="dropdown">
+            <a href="#" class="dropbtn">EATING</a>
+            <div class="dropdown-content">
+              <a
+                target="_blank"
+                href="https://community-kitchen.com/"
+                >Community Kitchen</a
+              >
+              <a
+                target="_blank"
+                href="https://www.toogoodtogo.com/de"
+               
+                >To Good to go</a></div></li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropbtn">SHOPPING</a>
+                  <div class="dropdown-content">   
+            <a target="_blank" href="https://www.hofflohmaerkte.de/muenchen/"
+              >Hofflohmaerkte</a
+            >
+            <a target="_blank" href="https://ohne-laden.shop/"
+            >Ohne Laden</a>
+          </div></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">RECYCLING</a>
+            <div class="dropdown-content">
+            <a
+              target="_blank"
+              href="https://www.simplegermany.com/pfand-germany/">Pfan System</a>
+              <a
+              target="_blank"
+              href="https://boredinmunich.com/recycling-in-munich-2022/">Recycling at home</a>
+              
+          </li>
+          <li><a href="contactUs.html">CONTACT US</a></li>
+          <li><a href="aboutUs.html">ABOUT US</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="form-container">
+      <form action="/action_page.php" id="contact-form">  
+        <fieldset>
+          <h2>Contact us</h2>
+          <h2>How can I help you?</h2>
+  
+          <div>
+            <label for="your-name">Your Name</label><br />
+            <input placeholder="your name" type="text" name="your-name" id="your-name" required/>
+            <br />  
+            <label for="email-address">Your E-mail Address</label>
+            <br />
+            <input placeholder="Your e-mail" type="email" name="email-address" id="email-address" required/>
+            <br />  
+            <label for="phone-number">Phone number</label><br />
+            <input placeholder="Phone Number" type="number" name="phone-number" id="phone-number" required/>
+            <br />  
+            <label for="message">Your Message</label><br />
+            <textarea placeholder="Message" id="message" rows="10" cols="40" name="message" required ></textarea>
+            <br />
+          </div>
+          <div>
+            <label for="find-us">
+              <h2>How did you find us?</h2></label><br />
+              <select id="find-us" name="How did yu find us?">
+              <option value="Web Search">Web search</option>
+              <option value="Social media">Social Media</option>
+              <option value="Friend recommendation">Friend recommendation</option>
+            </select>
+          </div>
+          <div class="reply-container">
+            <h2>How should we reply?</h2>
+            <div class="call-me">
+              <input type="radio" id="call-me" name="reply" value="call-me" />
+              <label for="call-me">Call me</label><br />
+            </div>
+  
+            <div class="send-email">
+              <input
+                type="radio"
+                id="send-email"
+                name="reply"
+                value="send-email"
+              />
+              <label for="send-email">Send me an email</label><br />
+            </div>
+  
+            <div class="do-not-reply">
+              <input
+                type="radio"
+                id="do-not-reply"
+                name="reply"
+                value="do-not-reply"
+              />
+              <label for="do-not-reply">Do not reply</label><br />
+            </div>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="accept-terms"
+              name="accept terms"
+              value="accept-terms"
+              required
+            />
+            <label for="accept-terms">Accept terms</label><br />
+          </div>
+          <div>
+            <input type="reset" value="Clear" />
+            <input type="submit" value="Submit" class="btn-submit" />
+          </div>
+        </fieldset>
+      </form>
+    </div>
+     
+    <footer>
+      <p>Munich Green 2023</p>
+      <div id="main-footer">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>       
+      </div>
+    </footer>
+    </body>
+  </html>
+  
+
+  
