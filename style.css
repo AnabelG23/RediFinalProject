@@ -305,7 +305,7 @@ header {
 
   div.gallery img {
     width: 100%;
-    height: auto;
+    /*height: auto;*/
     max-height: 100px;
   }
 
@@ -442,7 +442,7 @@ header {
 
   div.gallery img {
     width: 100%;
-    height: auto;
+    /*height: auto;*/
     max-height: fit-content;
   }
   input,
