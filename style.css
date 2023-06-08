@@ -305,8 +305,8 @@ header {
 
   div.gallery img {
     width: 100%;
-    /*height: auto;*/
-    max-height: 100px;
+    height: auto;
+    object-fit: cover;
   }
 
   div input {
@@ -442,8 +442,8 @@ header {
 
   div.gallery img {
     width: 100%;
-    /*height: auto;*/
-    max-height: fit-content;
+    height: auto;
+    object-fit: cover;
   }
   input,
   textarea,
