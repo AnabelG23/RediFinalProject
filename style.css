@@ -307,6 +307,7 @@ header {
     width: 100%;
     height: auto;
     object-fit: cover;
+    max-height: min-content;
   }
 
   div input {
@@ -444,6 +445,7 @@ header {
     width: 100%;
     height: auto;
     object-fit: cover;
+    max-height: min-content;
   }
   input,
   textarea,
