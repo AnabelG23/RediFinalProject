@@ -306,7 +306,7 @@ header {
   div.gallery img {
     width: 100%;
     height: auto;
-    max-height: 50px;
+    max-height: 100px;
   }
 
   div input {
@@ -443,7 +443,7 @@ header {
   div.gallery img {
     width: 100%;
     height: auto;
-    max-height: 50px;
+    max-height: fit-content;
   }
   input,
   textarea,
