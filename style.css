@@ -65,7 +65,10 @@ h2 {
 h3 {
   text-align: center;
 }
-
+img {
+  width: 100%;
+  object-fit: cover;
+}
 div {
   font-family: sans-serif;
 }
@@ -94,6 +97,7 @@ div.gallery {
   float: left;
   width: auto;
   height: auto;
+  max-width: 450px;
 }
 
 div.gallery:hover {
@@ -101,11 +105,11 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  min-height: max-content;
-  max-height: 250px;
-  max-width: 450px;
+  min-height: 0;
+  max-height: 100%;
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 div.desc {
@@ -371,7 +375,7 @@ header {
   }
 
   div.gallery {
-    width: 35%;
+    max-width: 35%;
     margin: 10px;
   }
 }
