@@ -265,168 +265,6 @@ header {
 }
 
 /*Responsive Design*/
-
-/* Add media query for screens smaller than 768px */
-@media screen and (max-width: 767px) {
-  body {
-    background-attachment: scroll;
-  }
-
-  .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  div.gallery {
-    width: 40%;
-    margin-bottom: 20px;
-    padding: 0%;
-  }
-
-  div.gallery img {
-    max-height: 200px;
-  }
-
-  footer {
-    margin-top: 0px;
-  }
-}
-
-/* Small screens */
-@media only screen and (max-width: 600px) {
-  h1 {
-    font-size: 1.5em;
-  }
-
-  div.gallery {
-    width: 70%;
-    margin: 10px;
-  }
-
-  div.gallery img {
-    width: 100%;
-    height: auto;
-    max-height: 50%;
-  }
-
-  div input {
-    width: auto;
-  }
-}
-
-/* Add media query for screens between 768px and 1023px */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .container {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  div.gallery {
-    width: 35%;
-    margin: 10px;
-  }
-
-  div.gallery img {
-    max-height: 300px;
-  }
-}
-
-/* Add media query for screens larger than 1023px */
-@media screen and (min-width: 1024px) {
-  .container {
-    justify-content: space-around;
-  }
-
-  div.gallery {
-    width: 30%;
-    margin: 10px;
-  }
-
-  div.gallery img {
-    max-height: 300px;
-  }
-  h1 {
-    font-size: 2.2em;
-  }
-}
-
-/* Medium screens */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  h1 {
-    font-size: 1.8em;
-  }
-
-  div.gallery img {
-    max-height: 200px;
-    max-width: 350px;
-  }
-}
-
-/*Contact us styles*/
-@media screen and (max-width: 767px) {
-  /* Adjust body background */
-  body {
-    background-attachment: scroll;
-  }
-
-  /* Adjust container layout */
-  .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  /* Adjust gallery styles */
-  div.gallery {
-    width: 40%;
-    margin-bottom: 20px;
-    padding: 0%;
-  }
-
-  div.gallery img {
-    max-height: 200px;
-  }
-
-  /* Adjust footer margin */
-  footer {
-    margin-top: 50px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* Adjust container layout */
-  .container {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  /* Adjust gallery styles */
-  div.gallery {
-    width: 35%;
-    margin: 10px;
-  }
-
-  div.gallery img {
-    max-height: 300px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  /* Adjust container layout */
-  .container {
-    justify-content: space-around;
-  }
-
-  /* Adjust gallery styles */
-  div.gallery {
-    width: 30%;
-    margin: 10px;
-  }
-
-  div.gallery img {
-    max-height: 400px;
-  }
-  h1 {
-    font-size: 2.2em;
-  }
-}
 /* Small screens */
 @media only screen and (max-width: 600px) {
   /* Adjust h1 font size */
@@ -473,6 +311,113 @@ header {
   .grid-container {
     display: flex;
     flex-direction: column;
+  }
+
+  div input {
+    width: auto;
+  }
+}
+
+/* Add media query for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+  /* Adjust body background */
+  body {
+    background-attachment: scroll;
+  }
+
+  /* Adjust container layout */
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust gallery styles */
+  div.gallery {
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 0%;
+  }
+
+  div.gallery img {
+    max-height: 200px;
+  }
+
+  /* Adjust footer margin */
+  footer {
+    margin-top: 50px;
+  }
+}
+/* Media queries for larger screens */
+@media only screen and (min-width: 768px) {
+  nav ul {
+    justify-content: flex-start;
+  }
+}
+
+/* Medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  div.gallery img {
+    max-height: 200px;
+    max-width: 350px;
+  }
+
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  div.gallery {
+    width: 35%;
+    margin: 10px;
+  }
+}
+/* Add media query for screens between 768px and 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  div.gallery img {
+    max-height: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Adjust container layout */
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Adjust gallery styles */
+  div.gallery {
+    width: 35%;
+    margin: 10px;
+  }
+
+  div.gallery img {
+    max-height: 300px;
+  }
+}
+
+/* Add media query for screens larger than 1023px */
+@media screen and (min-width: 1024px) {
+  /* Adjust container layout */
+  .container {
+    justify-content: space-around;
+  }
+
+  /* Adjust gallery styles */
+  div.gallery {
+    width: 30%;
+    margin: 10px;
+  }
+
+  div.gallery img {
+    max-height: 400px;
+  }
+  h1 {
+    font-size: 2.2em;
   }
 }
 
@@ -521,11 +466,4 @@ footer {
 
 #main-footer a {
   margin-right: 5px;
-}
-
-/* Media queries for larger screens */
-@media only screen and (min-width: 768px) {
-  nav ul {
-    justify-content: flex-start;
-  }
 }
