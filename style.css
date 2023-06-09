@@ -97,7 +97,7 @@ div.gallery {
   float: left;
   width: auto;
   height: auto;
-  max-width: 450px;
+  max-width: 600px;
 }
 
 div.gallery:hover {
