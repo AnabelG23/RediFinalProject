@@ -97,7 +97,7 @@ div.gallery {
   float: left;
   width: auto;
   height: auto;
-  max-width: 600px;
+  max-width: 450px;
 }
 
 div.gallery:hover {
@@ -375,7 +375,7 @@ header {
   }
 
   div.gallery {
-    max-width: 35%;
+    max-width: 50%;
     margin: 10px;
   }
 }
@@ -395,7 +395,7 @@ header {
 
   /* Adjust gallery styles */
   div.gallery {
-    width: 35%;
+    width: 50%;
     margin: 10px;
   }
 
